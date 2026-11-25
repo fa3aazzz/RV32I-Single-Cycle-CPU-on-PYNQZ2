@@ -27,14 +27,12 @@ module rv32i_fpga_top(
         .dbg_pc    (dbg_pc)
     );
 
-    // VIO Core for JTAG hardware debugging
     vio_0 debug_vio (
         .clk        (clk_50mhz),
         .probe_in0  (dbg_pc),
         .probe_in1  (mmio_wdata)
     );
 
-    // MMIO LED Register
     reg [3:0] led_reg;
     always @(posedge clk_50mhz)
         if (reset)
