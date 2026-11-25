@@ -6,7 +6,7 @@ board where it runs a program and blinks LEDs. The design follows the
 single-cycle processor in Harris & Harris, *Digital Design and Computer
 Architecture: RISC-V Edition* (Ch. 7).
 
-![PYNQ-Z2 running the processor](docs/board-running.jpg)
+![PYNQ-Z2 running the processor](docs/board-running.jpeg)
 
 ## What it does
 - Runs 10 instructions: ADD, SUB, AND, OR, SLT, ADDI, LW, SW, BEQ, JAL
