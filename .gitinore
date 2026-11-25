@@ -1,0 +1,17 @@
+# Vivado generated
+*.jou
+*.log
+*.str
+*.cache/
+*.hw/
+*.runs/
+*.sim/
+*.ip_user_files/
+*.gen/
+*.xpr
+.Xil/
+*.dcp
+*.bit
+*.wdb
+xsim.dir/
+webtalk*
